@@ -58,6 +58,11 @@ USB_DEVICE_ID rtusb_dev_id[] = {
 	{USB_DEVICE_AND_INTERFACE_INFO(0x0E8D, 0x7630, 0xff, 0x2, 0xff)}, /* MT7630U */
 	{USB_DEVICE_AND_INTERFACE_INFO(0x0E8D, 0x7650, 0xff, 0x2, 0xff)}, /* MT7650U */
 #endif
+
+#if 1
+	{USB_DEVICE(0x148F,0x761A)}, /* T2Uv1 */
+	{USB_DEVICE(0x2357,0x0105)}, /* T1Uv1 */
+#endif
 	{ }/* Terminating entry */
 };
 
